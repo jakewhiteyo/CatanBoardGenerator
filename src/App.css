@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tile-row {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+}
+.first-row {
+  transform: translate(-150px, 100px);
+}
+.second-row {
+  transform: translate(-200px, 180px);
+}
+.third-row {
+  transform: translate(-250px, 260px);
+}
+.fourth-row {
+  transform: translate(-200px, 346px);
+}
+.fifth-row {
+  transform: translate(-150px, 432px);
+}
+.board {
+  text-align: center;
+}
+.number {
+  text-align: center;
+  position: relative;
+  min-height: 100px !important;
+  min-width: 100px !important;
+}
+.number-pic {
+  width: fit-content;
+  bottom: 0;
+  position: absolute;
+  margin-left: 30%;
+}
+.headline {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+input[type="button"] {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: darkorange;
+  border-radius: 1rem;
+  color: black;
+  border: transparent;
+  font-weight: bold;
+}
+input:hover {
+  cursor: pointer;
+  background-color: white;
+  border: darkorange 2px solid;
+  color: darkorange;
+}
+.background {
+  background-color: darkslateblue;
+}
+.inputs {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: beige;
+  padding: 10px;
+  font-size: 20px;
+}
+.checkbox-group {
+  display: flex;
+}
